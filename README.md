@@ -13,7 +13,7 @@ Project is designed for Python 3 Framwork
 # How to Use (example)
 #pulling AAPL's close price for the past 5 years
 
-from GoogleAPI import GoogleAPI
+from Google_Finance_Beta import GoogleAPI
 
 google_data = GoogleAPI()
 
