@@ -14,6 +14,7 @@ Project is designed for Python 3 Framwork
 #pulling AAPL's close price for the past 5 years
 
 from GoogleAPI import GoogleAPI
+
 google_data = GoogleAPI()
 
 AAPL_data = google_data.get_Yearly_Price_Data(stock = 'AAPL', period_in_years = 5)
