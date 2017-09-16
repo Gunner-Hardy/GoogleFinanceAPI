@@ -77,10 +77,3 @@ class GoogleAPI:
         return parsed_pricing_data
 
 
-def main():
-    
-
-if __name__ == "__main__":
-    main()
-
-
