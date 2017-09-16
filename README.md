@@ -1,6 +1,5 @@
 # GoogleFinanceAPI
-This is designed to pull data from Google Finance.
-
+This is designed to pull data from Google Finance. 
 # Current Features
 
     Pulling Daily Close Data (GoogleAPI.get_Yearly_Price_Data)
@@ -22,3 +21,5 @@ AAPL_data = google_data.get_Yearly_Price_Data(stock = 'AAPL', period_in_years = 
 current_quote = google_data.get_Current_Quote('AAPL')
 
 # More Features Coming Soon (also available on request)
+
+This is not endorsed or affiliated with Google in any way.
